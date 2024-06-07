@@ -1,0 +1,16 @@
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+    margin: 20px;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.active-link{
+    color: rgb(58, 58, 89);
+}
