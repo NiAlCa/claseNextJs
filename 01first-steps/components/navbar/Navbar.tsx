@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Navbar.module.css";
 import Link from "next/link";
-\import { ActiveLink } from "../active-link/ActiveLink";
+import { ActiveLink } from "../active-link/ActiveLink";
 import { HomeIcon } from '@primer/octicons-react';
 
 const navItems = [
