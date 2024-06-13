@@ -1,4 +1,4 @@
-// File: C:\Users\casie\Desktop\clasesNext\02my-dashboard\src\app\dashboard\pokemons\page.tsx
+// File: C:\Users\casie\Desktop\claseNextJs\02my-dashboard\src\app\dashboard\pokemons\page.tsx
 import * as entry from '../../../../../src/app/dashboard/pokemons/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
