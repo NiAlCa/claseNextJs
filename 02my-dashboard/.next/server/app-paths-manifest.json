@@ -1,7 +1,5 @@
 {
+  "/api/counter/route": "app/api/counter/route.js",
   "/dashboard/main/page": "app/dashboard/main/page.js",
-  "/dashboard/counter/page": "app/dashboard/counter/page.js",
-  "/dashboard/pokemons/page": "app/dashboard/pokemons/page.js",
-  "/dashboard/pokemon/[id]/page": "app/dashboard/pokemon/[id]/page.js",
-  "/dashboard/pokemons/[name]/page": "app/dashboard/pokemons/[name]/page.js"
+  "/dashboard/counter/page": "app/dashboard/counter/page.js"
 }
