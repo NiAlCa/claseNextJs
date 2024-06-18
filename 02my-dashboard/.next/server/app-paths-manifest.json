@@ -1,5 +1,6 @@
 {
-  "/api/counter/route": "app/api/counter/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/dashboard/main/page": "app/dashboard/main/page.js",
-  "/dashboard/counter/page": "app/dashboard/counter/page.js"
+  "/dashboard/counter/page": "app/dashboard/counter/page.js",
+  "/dashboard/pokemons/page": "app/dashboard/pokemons/page.js"
 }
