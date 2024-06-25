@@ -1,15 +1,19 @@
-'use client'
+"use client";
 
-import { useAppSelector } from "@/store"
-import { PokemonGrid } from "./PokemonGrid"
-import { useState } from "react"
+import { useAppSelector } from "@/store";
+import { PokemonGrid } from "./PokemonGrid";
+import { useEffect, useState } from "react";
 
 export const FavoritePokemons = () => {
+  const favoritePokemons = useAppSelector((state) =>
+    Object.values(state.pokemons.favorites)
+  );
+  // const [Pokemons, setPokemons] = useState(favoritePokemons);
 
+  // useEffect(() => {
+  //   console.log({ favoritePokemons });
+  //   setPokemons(favoritePokemons);
+  // }, [favoritePokemons]);
 
-    const favoritePokemons = useAppSelector(state => Object.values(state.pokemons))
-    const [Pokemons, setPokemons] = useState(favoritePokemons)
-
-  return (
-<PokemonGrid pokemons={Pokemons} />  )
-}
+  return <PokemonGrid pokemons={favoritePokemons} />;
+};
